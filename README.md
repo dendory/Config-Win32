@@ -30,6 +30,7 @@ $cfg = Config::Win32->new($vendor_name, $application_name)
 	vendor and application names under HKEY_LOCAL_USER/Software.
 
 $cfg->app
+
 $cfg->app($application_name)
 
 	Returns the current application name, or switches to a new application
